@@ -1,0 +1,3 @@
+C:/Users/foresee/Downloads/HelloARNative/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/helloar.dir
+C:/Users/foresee/Downloads/HelloARNative/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/edit_cache.dir
+C:/Users/foresee/Downloads/HelloARNative/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/rebuild_cache.dir

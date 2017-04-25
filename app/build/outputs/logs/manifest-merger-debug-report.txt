@@ -1,0 +1,194 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:2:1-87:12
+	package
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:3:5-40
+		INJECTED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml
+uses-feature#android.hardware.camera.autofocus
+ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:4:5-70
+	android:name
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:4:19-67
+application
+ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:6:5-35:19
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\foresee\.android\build-cache\98f4cd82ee7154f7ce069e4cdc85556e3b884982\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\foresee\.android\build-cache\50129a98d7b347714071e89d51bfcd4cb464efb7\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\foresee\.android\build-cache\9a9085da4705e7b05c23898b10afe190fcdeaf19\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\foresee\.android\build-cache\62586b16e4eb70f542d9a9816e478f24bc0833e5\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\foresee\.android\build-cache\7e8147a4aea1d57ab453a961919018ba447a2675\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\foresee\.android\build-cache\e8050ff2e54d5aaf6e906b8221ae47c3ffa4015e\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\foresee\.android\build-cache\6ab88354b43b78f7e908f466d49840215887a23c\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\foresee\.android\build-cache\b89e71b9b89c948dd1168ddd5c31a1ae5f7abb48\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\foresee\.android\build-cache\97a42a0ac478cc7c7d613df50e69791fb086bc1b\output\AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:9:9-41
+	android:allowBackup
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:7:9-35
+	android:icon
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:8:9-43
+	android:theme
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:10:9-40
+meta-data#com.baidu.lbsapi.API_KEY
+ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:11:9-13:63
+	android:value
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:13:13-61
+	android:name
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:12:13-52
+activity#cn.easyar.samples.helloar.MainActivity
+ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:14:9-25:20
+	android:screenOrientation
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:16:13-49
+	android:label
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:18:13-45
+	android:configChanges
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:17:13-93
+	android:name
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:15:13-66
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:19:13-23:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:20:17-69
+	android:name
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:20:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:22:17-77
+	android:name
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:22:27-74
+service#com.baidu.location.f
+ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:26:9-34:19
+	android:enabled
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:28:13-35
+	android:process
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:29:13-38
+	android:permission
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:30:13-75
+	android:name
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:27:13-48
+intent-filter#com.baidu.location.service_v2.6
+ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:31:13-33:29
+action#com.baidu.location.service_v2.6
+ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:32:17-73
+	android:name
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:32:25-71
+uses-permission#android.permission.VIBRATE
+ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:37:5-66
+	android:name
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:37:22-63
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:38:5-67
+	android:name
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:38:22-64
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:40:5-65
+	android:name
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:40:22-62
+uses-feature#android.hardware.camera
+ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:41:5-60
+	android:name
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:41:19-57
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:43:5-44:23
+	android:name
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:43:22-76
+uses-permission#com.android.launcher.permission.READ_SETTINGS
+ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:47:5-85
+	android:name
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:47:22-82
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:48:5-49:23
+	android:name
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:48:22-65
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:50:5-76
+	android:name
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:50:22-73
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:51:5-76
+	android:name
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:51:22-73
+uses-permission#android.permission.GET_TASKS
+ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:53:5-68
+	android:name
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:53:22-65
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:54:5-55:23
+	android:name
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:54:22-78
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:56:5-73
+	android:name
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:56:22-70
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:58:5-97
+	android:name
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:58:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:60:5-95
+	android:name
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:60:22-76
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:68:5-91
+	android:name
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:68:22-72
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:74:5-100
+	android:name
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:74:22-81
+uses-permission#android.permission.READ_LOGS
+ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:76:5-84
+	android:name
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:76:22-65
+supports-screens
+ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:79:5-84:39
+	android:largeScreens
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:81:9-36
+	android:smallScreens
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:84:9-36
+	android:normalScreens
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:82:9-38
+	android:resizeable
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:83:9-34
+	android:anyDensity
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:80:9-34
+uses-sdk
+INJECTED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\foresee\.android\build-cache\98f4cd82ee7154f7ce069e4cdc85556e3b884982\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\foresee\.android\build-cache\50129a98d7b347714071e89d51bfcd4cb464efb7\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\foresee\.android\build-cache\9a9085da4705e7b05c23898b10afe190fcdeaf19\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\foresee\.android\build-cache\62586b16e4eb70f542d9a9816e478f24bc0833e5\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\foresee\.android\build-cache\7e8147a4aea1d57ab453a961919018ba447a2675\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\foresee\.android\build-cache\e8050ff2e54d5aaf6e906b8221ae47c3ffa4015e\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\foresee\.android\build-cache\6ab88354b43b78f7e908f466d49840215887a23c\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\foresee\.android\build-cache\b89e71b9b89c948dd1168ddd5c31a1ae5f7abb48\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\foresee\.android\build-cache\97a42a0ac478cc7c7d613df50e69791fb086bc1b\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:multidex:1.0.1] C:\Users\foresee\.android\build-cache\cbae12ecb12ff3498647dd17c34fec860a009307\output\AndroidManifest.xml:18:5-42
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\foresee\.android\build-cache\98f4cd82ee7154f7ce069e4cdc85556e3b884982\output\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\foresee\.android\build-cache\98f4cd82ee7154f7ce069e4cdc85556e3b884982\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\foresee\.android\build-cache\50129a98d7b347714071e89d51bfcd4cb464efb7\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\foresee\.android\build-cache\9a9085da4705e7b05c23898b10afe190fcdeaf19\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\foresee\.android\build-cache\62586b16e4eb70f542d9a9816e478f24bc0833e5\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\foresee\.android\build-cache\7e8147a4aea1d57ab453a961919018ba447a2675\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\foresee\.android\build-cache\e8050ff2e54d5aaf6e906b8221ae47c3ffa4015e\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\foresee\.android\build-cache\6ab88354b43b78f7e908f466d49840215887a23c\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\foresee\.android\build-cache\b89e71b9b89c948dd1168ddd5c31a1ae5f7abb48\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\foresee\.android\build-cache\97a42a0ac478cc7c7d613df50e69791fb086bc1b\output\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\foresee\.android\build-cache\98f4cd82ee7154f7ce069e4cdc85556e3b884982\output\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\foresee\.android\build-cache\98f4cd82ee7154f7ce069e4cdc85556e3b884982\output\AndroidManifest.xml:26:9-47

@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_clustering_demo.xml",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\menu\\menu_clustering_demo.xml"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main.xml",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\menu\\menu_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_marker_cluster_demo.xml",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\menu\\menu_marker_cluster_demo.xml"
+    }
+]
