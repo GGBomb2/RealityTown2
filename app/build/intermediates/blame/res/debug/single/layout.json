@@ -1,9 +1,5 @@
 [
     {
-        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
-        "source": "C:\\Users\\foresee\\.android\\build-cache\\98f4cd82ee7154f7ce069e4cdc85556e3b884982\\output\\res\\layout\\abc_action_bar_up_container.xml"
-    },
-    {
         "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_open_baidumap.xml",
         "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\layout\\activity_open_baidumap.xml"
     },
@@ -12,12 +8,16 @@
         "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\layout\\activity_tile_overlay_demo.xml"
     },
     {
-        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_poisearch.xml",
-        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\layout\\activity_poisearch.xml"
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\superid_pop_guiderebundle.xml",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\layout\\superid_pop_guiderebundle.xml"
     },
     {
         "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
         "source": "C:\\Users\\foresee\\.android\\build-cache\\98f4cd82ee7154f7ce069e4cdc85556e3b884982\\output\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\superid_activity_auth.xml",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\layout\\superid_activity_auth.xml"
     },
     {
         "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_radartablayout.xml",
@@ -32,64 +32,36 @@
         "source": "C:\\Users\\foresee\\.android\\build-cache\\98f4cd82ee7154f7ce069e4cdc85556e3b884982\\output\\res\\layout\\abc_screen_content_include.xml"
     },
     {
-        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
-        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\layout\\activity_main.xml"
-    },
-    {
         "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_geometry.xml",
         "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\layout\\activity_geometry.xml"
     },
     {
-        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_clustering_demo.xml",
-        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\layout\\activity_clustering_demo.xml"
-    },
-    {
-        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\demo_info_item.xml",
-        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\layout\\demo_info_item.xml"
-    },
-    {
-        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_transit_dialog.xml",
-        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\layout\\activity_transit_dialog.xml"
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_facedata.xml",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\layout\\item_facedata.xml"
     },
     {
         "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
         "source": "C:\\Users\\foresee\\.android\\build-cache\\98f4cd82ee7154f7ce069e4cdc85556e3b884982\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
     },
     {
-        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_opengl.xml",
-        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\layout\\activity_opengl.xml"
-    },
-    {
         "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_favorite.xml",
         "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\layout\\activity_favorite.xml"
-    },
-    {
-        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
-        "source": "C:\\Users\\foresee\\.android\\build-cache\\98f4cd82ee7154f7ce069e4cdc85556e3b884982\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
-    },
-    {
-        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
-        "source": "C:\\Users\\foresee\\.android\\build-cache\\98f4cd82ee7154f7ce069e4cdc85556e3b884982\\output\\res\\layout\\abc_screen_simple.xml"
-    },
-    {
-        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
-        "source": "C:\\Users\\foresee\\.android\\build-cache\\98f4cd82ee7154f7ce069e4cdc85556e3b884982\\output\\res\\layout\\notification_template_media_custom.xml"
-    },
-    {
-        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
-        "source": "C:\\Users\\foresee\\.android\\build-cache\\98f4cd82ee7154f7ce069e4cdc85556e3b884982\\output\\res\\layout\\notification_template_lines_media.xml"
     },
     {
         "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_cloud_search_demo.xml",
         "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\layout\\activity_cloud_search_demo.xml"
     },
     {
-        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_location.xml",
-        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\layout\\activity_location.xml"
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
+        "source": "C:\\Users\\foresee\\.android\\build-cache\\98f4cd82ee7154f7ce069e4cdc85556e3b884982\\output\\res\\layout\\notification_template_lines_media.xml"
     },
     {
-        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
-        "source": "C:\\Users\\foresee\\.android\\build-cache\\98f4cd82ee7154f7ce069e4cdc85556e3b884982\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\aty_faceemotion.xml",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\layout\\aty_faceemotion.xml"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\superid_common_bar.xml",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\layout\\superid_common_bar.xml"
     },
     {
         "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
@@ -104,40 +76,12 @@
         "source": "C:\\Users\\foresee\\.android\\build-cache\\98f4cd82ee7154f7ce069e4cdc85556e3b884982\\output\\res\\layout\\abc_activity_chooser_view.xml"
     },
     {
-        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
-        "source": "C:\\Users\\foresee\\.android\\build-cache\\98f4cd82ee7154f7ce069e4cdc85556e3b884982\\output\\res\\layout\\notification_action_tombstone.xml"
-    },
-    {
         "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\text_bubble.xml",
         "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\layout\\text_bubble.xml"
     },
     {
-        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
-        "source": "C:\\Users\\foresee\\.android\\build-cache\\98f4cd82ee7154f7ce069e4cdc85556e3b884982\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
-    },
-    {
         "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_transit_item.xml",
         "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\layout\\activity_transit_item.xml"
-    },
-    {
-        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
-        "source": "C:\\Users\\foresee\\.android\\build-cache\\98f4cd82ee7154f7ce069e4cdc85556e3b884982\\output\\res\\layout\\notification_template_icon_group.xml"
-    },
-    {
-        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_lbssearch.xml",
-        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\layout\\activity_lbssearch.xml"
-    },
-    {
-        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
-        "source": "C:\\Users\\foresee\\.android\\build-cache\\98f4cd82ee7154f7ce069e4cdc85556e3b884982\\output\\res\\layout\\abc_list_menu_item_icon.xml"
-    },
-    {
-        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
-        "source": "C:\\Users\\foresee\\.android\\build-cache\\98f4cd82ee7154f7ce069e4cdc85556e3b884982\\output\\res\\layout\\notification_template_media.xml"
-    },
-    {
-        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_texture_map_view_demo.xml",
-        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\layout\\activity_texture_map_view_demo.xml"
     },
     {
         "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_favorite_alert.xml",
@@ -160,24 +104,20 @@
         "source": "C:\\Users\\foresee\\.android\\build-cache\\98f4cd82ee7154f7ce069e4cdc85556e3b884982\\output\\res\\layout\\abc_list_menu_item_radio.xml"
     },
     {
-        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_busline.xml",
-        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\layout\\activity_busline.xml"
-    },
-    {
         "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
         "source": "C:\\Users\\foresee\\.android\\build-cache\\98f4cd82ee7154f7ce069e4cdc85556e3b884982\\output\\res\\layout\\select_dialog_item_material.xml"
     },
     {
-        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
-        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\layout\\main.xml"
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\superid_pop_guidefakeid.xml",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\layout\\superid_pop_guidefakeid.xml"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\superid_item_countrypage.xml",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\layout\\superid_item_countrypage.xml"
     },
     {
         "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",
         "source": "C:\\Users\\foresee\\.android\\build-cache\\98f4cd82ee7154f7ce069e4cdc85556e3b884982\\output\\res\\layout\\notification_action.xml"
-    },
-    {
-        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
-        "source": "C:\\Users\\foresee\\.android\\build-cache\\98f4cd82ee7154f7ce069e4cdc85556e3b884982\\output\\res\\layout\\abc_expanded_menu_layout.xml"
     },
     {
         "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_indoor_search.xml",
@@ -188,32 +128,16 @@
         "source": "C:\\Users\\foresee\\.android\\build-cache\\98f4cd82ee7154f7ce069e4cdc85556e3b884982\\output\\res\\layout\\abc_dialog_title_material.xml"
     },
     {
-        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_multimap.xml",
-        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\layout\\activity_multimap.xml"
-    },
-    {
         "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
         "source": "C:\\Users\\foresee\\.android\\build-cache\\98f4cd82ee7154f7ce069e4cdc85556e3b884982\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
-    },
-    {
-        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_district_search_demo.xml",
-        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\layout\\activity_district_search_demo.xml"
     },
     {
         "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_fragment.xml",
         "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\layout\\activity_fragment.xml"
     },
     {
-        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom_text_view.xml",
-        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\layout\\custom_text_view.xml"
-    },
-    {
         "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
         "source": "C:\\Users\\foresee\\.android\\build-cache\\98f4cd82ee7154f7ce069e4cdc85556e3b884982\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
-    },
-    {
-        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
-        "source": "C:\\Users\\foresee\\.android\\build-cache\\98f4cd82ee7154f7ce069e4cdc85556e3b884982\\output\\res\\layout\\notification_template_part_time.xml"
     },
     {
         "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_share_demo_activity.xml",
@@ -224,16 +148,16 @@
         "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\layout\\activity_indoor.xml"
     },
     {
-        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
-        "source": "C:\\Users\\foresee\\.android\\build-cache\\98f4cd82ee7154f7ce069e4cdc85556e3b884982\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
-    },
-    {
         "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
         "source": "C:\\Users\\foresee\\.android\\build-cache\\98f4cd82ee7154f7ce069e4cdc85556e3b884982\\output\\res\\layout\\abc_action_menu_item_layout.xml"
     },
     {
-        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
-        "source": "C:\\Users\\foresee\\.android\\build-cache\\98f4cd82ee7154f7ce069e4cdc85556e3b884982\\output\\res\\layout\\abc_list_menu_item_layout.xml"
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\surface_fragment2.xml",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\layout\\surface_fragment2.xml"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\superid_activity_clippic.xml",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\layout\\superid_activity_clippic.xml"
     },
     {
         "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
@@ -256,24 +180,12 @@
         "source": "C:\\Users\\foresee\\.android\\build-cache\\98f4cd82ee7154f7ce069e4cdc85556e3b884982\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
     },
     {
-        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
-        "source": "C:\\Users\\foresee\\.android\\build-cache\\98f4cd82ee7154f7ce069e4cdc85556e3b884982\\output\\res\\layout\\abc_alert_dialog_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_uisetting.xml",
-        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\layout\\activity_uisetting.xml"
-    },
-    {
-        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_geocoder.xml",
-        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\layout\\activity_geocoder.xml"
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\aty_usercenter.xml",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\layout\\aty_usercenter.xml"
     },
     {
         "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
         "source": "C:\\Users\\foresee\\.android\\build-cache\\98f4cd82ee7154f7ce069e4cdc85556e3b884982\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
-    },
-    {
-        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_marker_cluster_demo.xml",
-        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\layout\\activity_marker_cluster_demo.xml"
     },
     {
         "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
@@ -284,14 +196,6 @@
         "source": "C:\\Users\\foresee\\.android\\build-cache\\98f4cd82ee7154f7ce069e4cdc85556e3b884982\\output\\res\\layout\\abc_alert_dialog_title_material.xml"
     },
     {
-        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_routeplan.xml",
-        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\layout\\activity_routeplan.xml"
-    },
-    {
-        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\guide.xml",
-        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\layout\\guide.xml"
-    },
-    {
         "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\offline_localmap_list.xml",
         "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\layout\\offline_localmap_list.xml"
     },
@@ -300,12 +204,216 @@
         "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\layout\\activity_mapcontrol.xml"
     },
     {
-        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_offline.xml",
-        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\layout\\activity_offline.xml"
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\aty_facesdemo.xml",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\layout\\aty_facesdemo.xml"
     },
     {
         "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_overlay.xml",
         "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\layout\\activity_overlay.xml"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\superid_pop_faceregist.xml",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\layout\\superid_pop_faceregist.xml"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "C:\\Users\\foresee\\.android\\build-cache\\98f4cd82ee7154f7ce069e4cdc85556e3b884982\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\superid_pop_guideerror.xml",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\layout\\superid_pop_guideerror.xml"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\foresee\\.android\\build-cache\\98f4cd82ee7154f7ce069e4cdc85556e3b884982\\output\\res\\layout\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\superid_activity_facedete.xml",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\layout\\superid_activity_facedete.xml"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "C:\\Users\\foresee\\.android\\build-cache\\98f4cd82ee7154f7ce069e4cdc85556e3b884982\\output\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_poisearch.xml",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\layout\\activity_poisearch.xml"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_clustering_demo.xml",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\layout\\activity_clustering_demo.xml"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\superid_activity_countrypage.xml",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\layout\\superid_activity_countrypage.xml"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\demo_info_item.xml",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\layout\\demo_info_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_transit_dialog.xml",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\layout\\activity_transit_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_opengl.xml",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\layout\\activity_opengl.xml"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "C:\\Users\\foresee\\.android\\build-cache\\98f4cd82ee7154f7ce069e4cdc85556e3b884982\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "C:\\Users\\foresee\\.android\\build-cache\\98f4cd82ee7154f7ce069e4cdc85556e3b884982\\output\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
+        "source": "C:\\Users\\foresee\\.android\\build-cache\\98f4cd82ee7154f7ce069e4cdc85556e3b884982\\output\\res\\layout\\notification_template_media_custom.xml"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_location.xml",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\layout\\activity_location.xml"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "C:\\Users\\foresee\\.android\\build-cache\\98f4cd82ee7154f7ce069e4cdc85556e3b884982\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\foresee\\.android\\build-cache\\98f4cd82ee7154f7ce069e4cdc85556e3b884982\\output\\res\\layout\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "C:\\Users\\foresee\\.android\\build-cache\\98f4cd82ee7154f7ce069e4cdc85556e3b884982\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\foresee\\.android\\build-cache\\98f4cd82ee7154f7ce069e4cdc85556e3b884982\\output\\res\\layout\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_lbssearch.xml",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\layout\\activity_lbssearch.xml"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "C:\\Users\\foresee\\.android\\build-cache\\98f4cd82ee7154f7ce069e4cdc85556e3b884982\\output\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "C:\\Users\\foresee\\.android\\build-cache\\98f4cd82ee7154f7ce069e4cdc85556e3b884982\\output\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_texture_map_view_demo.xml",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\layout\\activity_texture_map_view_demo.xml"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\superid_activity_secureemail.xml",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\layout\\superid_activity_secureemail.xml"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\aty_welcome.xml",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\layout\\aty_welcome.xml"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_busline.xml",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\layout\\activity_busline.xml"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\superid_activity_edituserinfo.xml",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\layout\\superid_activity_edituserinfo.xml"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "C:\\Users\\foresee\\.android\\build-cache\\98f4cd82ee7154f7ce069e4cdc85556e3b884982\\output\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\aty_group_face.xml",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\layout\\aty_group_face.xml"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_multimap.xml",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\layout\\activity_multimap.xml"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_district_search_demo.xml",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\layout\\activity_district_search_demo.xml"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\aty_login.xml",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\layout\\aty_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\superid_activity_agreeitem.xml",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\layout\\superid_activity_agreeitem.xml"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom_text_view.xml",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\layout\\custom_text_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\foresee\\.android\\build-cache\\98f4cd82ee7154f7ce069e4cdc85556e3b884982\\output\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
+        "source": "C:\\Users\\foresee\\.android\\build-cache\\98f4cd82ee7154f7ce069e4cdc85556e3b884982\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "C:\\Users\\foresee\\.android\\build-cache\\98f4cd82ee7154f7ce069e4cdc85556e3b884982\\output\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\superid_pop_guidestart.xml",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\layout\\superid_pop_guidestart.xml"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "C:\\Users\\foresee\\.android\\build-cache\\98f4cd82ee7154f7ce069e4cdc85556e3b884982\\output\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\superid_pop_guideregerror.xml",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\layout\\superid_pop_guideregerror.xml"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_uisetting.xml",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\layout\\activity_uisetting.xml"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_geocoder.xml",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\layout\\activity_geocoder.xml"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_marker_cluster_demo.xml",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\layout\\activity_marker_cluster_demo.xml"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_routeplan.xml",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\layout\\activity_routeplan.xml"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\guide.xml",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\layout\\guide.xml"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\superid_pop_facelogin.xml",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\layout\\superid_pop_facelogin.xml"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\superid_pop_guidelock.xml",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\layout\\superid_pop_guidelock.xml"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_offline.xml",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\layout\\activity_offline.xml"
     },
     {
         "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
@@ -316,19 +424,15 @@
         "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\layout\\activity_favorite_infowindow.xml"
     },
     {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\superid_wiget_loading.xml",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\layout\\superid_wiget_loading.xml"
+    },
+    {
         "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_radarlist.xml",
         "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\layout\\activity_radarlist.xml"
     },
     {
-        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
-        "source": "C:\\Users\\foresee\\.android\\build-cache\\98f4cd82ee7154f7ce069e4cdc85556e3b884982\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
-    },
-    {
         "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_layers.xml",
         "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\layout\\activity_layers.xml"
-    },
-    {
-        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_custom_big.xml",
-        "source": "C:\\Users\\foresee\\.android\\build-cache\\98f4cd82ee7154f7ce069e4cdc85556e3b884982\\output\\res\\layout\\notification_template_custom_big.xml"
     }
 ]

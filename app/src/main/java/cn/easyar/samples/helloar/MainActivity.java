@@ -20,7 +20,6 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.EditText;
@@ -96,6 +95,8 @@ public class MainActivity extends Activity implements BaiduMap.OnMapClickListene
 
     MapView mMapView=null;
     BaiduMap mBaiduMap;
+
+    ViewGroup viewGroup;
     // 定位相关
     LocationClient mLocClient;
     public MyLocationListenner myListener = new MyLocationListenner();
@@ -115,7 +116,7 @@ public class MainActivity extends Activity implements BaiduMap.OnMapClickListene
     TextView mLongitudeTV;// 经度
     //Fragments
     GuideFragment mGuideFragment=null;             //导航模块
-    SurfaceFragment mSurfaceFragment=null;         //相机视图模块
+    SurfaceFragment2 mSurfaceFragment=null;         //相机视图模块
     //搜索相关
     RoutePlanSearch mSearch = null;    // 搜索模块，也可去掉地图模块独立使用
     RouteLine route = null;
@@ -141,10 +142,14 @@ public class MainActivity extends Activity implements BaiduMap.OnMapClickListene
         glView.setRenderer(new Renderer());
         glView.setZOrderMediaOverlay(true);
 
-        ((ViewGroup) findViewById(R.id.id_content)).addView(glView, new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT));
+        viewGroup=(ViewGroup) findViewById(R.id.id_content);
+
+        viewGroup.addView(glView, new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT));
         nativeRotationChange(getWindowManager().getDefaultDisplay().getRotation() == android.view.Surface.ROTATION_0);
         //获取地图控件引用
-        mMapView = (MapView) findViewById(R.id.bmapView);
+        mMapView=new MapView(this);
+        
+//        mMapView = (MapView) findViewById(R.id.bmapView);
         RelativeLayout raly=(RelativeLayout)findViewById(R.id.relativeLayout);
         //mMapView=new MapView(this,new BaiduMapOptions().compassEnabled(false));
         //raly.addView(mMapView);
@@ -188,7 +193,7 @@ public class MainActivity extends Activity implements BaiduMap.OnMapClickListene
     {
         FragmentManager fm = getFragmentManager();
         FragmentTransaction transaction = fm.beginTransaction();
-        mSurfaceFragment = new SurfaceFragment();
+        mSurfaceFragment = new SurfaceFragment2();
         transaction.replace(R.id.id_content, mSurfaceFragment);
         transaction.commit();
     }

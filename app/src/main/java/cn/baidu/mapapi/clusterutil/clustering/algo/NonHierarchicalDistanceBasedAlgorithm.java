@@ -4,12 +4,6 @@
 
 package cn.baidu.mapapi.clusterutil.clustering.algo;
 
-import cn.baidu.mapapi.clusterutil.clustering.Cluster;
-import cn.baidu.mapapi.clusterutil.clustering.ClusterItem;
-import cn.baidu.mapapi.clusterutil.projection.Bounds;
-import cn.baidu.mapapi.clusterutil.projection.Point;
-import cn.baidu.mapapi.clusterutil.projection.SphericalMercatorProjection;
-import cn.baidu.mapapi.clusterutil.quadtree.PointQuadTree;
 import com.baidu.mapapi.model.LatLng;
 
 import java.util.ArrayList;
@@ -20,6 +14,13 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
+
+import cn.baidu.mapapi.clusterutil.clustering.Cluster;
+import cn.baidu.mapapi.clusterutil.clustering.ClusterItem;
+import cn.baidu.mapapi.clusterutil.projection.Bounds;
+import cn.baidu.mapapi.clusterutil.projection.Point;
+import cn.baidu.mapapi.clusterutil.projection.SphericalMercatorProjection;
+import cn.baidu.mapapi.clusterutil.quadtree.PointQuadTree;
 
 /**
  * A simple clustering algorithm with O(nlog n) performance. Resulting clusters are not

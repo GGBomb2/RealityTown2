@@ -21,6 +21,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\foresee\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="C:\Users\foresee\Downloads\HelloARNative\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.7_4297cc76d3eaee0b74069a9e520f939ad64407c8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\foresee\Downloads\HelloARNative\app\libs\BaiduLBS_Android.jar"
         jumboMode="false"
         optimize="true"
@@ -36,6 +45,15 @@
         revision="25.0.2"
         sha1="70ae6d25e42048bdf27be02bd95d5b4466b3216f">
         <dex dex="C:\Users\foresee\Downloads\HelloARNative\app\build\intermediates\transforms\dex\debug\folders\1000\2\EasyAR_a410c7a0565a93796cec3c7899b1eb3222bb0778\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\foresee\Downloads\HelloARNative\app\libs\SuperIDSDK.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8d057f18dfb44c92a6cfedc84ec8b61bbd574204">
+        <dex dex="C:\Users\foresee\Downloads\HelloARNative\app\build\intermediates\transforms\dex\debug\folders\1000\2\SuperIDSDK_149f79611760349537345be2469d29415202f1d6\classes.dex" />
     </item>
 
 </items>

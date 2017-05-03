@@ -5,12 +5,12 @@
 package cn.baidu.mapapi.clusterutil.quadtree;
 
 
-import cn.baidu.mapapi.clusterutil.projection.Bounds;
-import cn.baidu.mapapi.clusterutil.projection.Point;
-
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
+
+import cn.baidu.mapapi.clusterutil.projection.Bounds;
+import cn.baidu.mapapi.clusterutil.projection.Point;
 
 /**
  * A quad tree which tracks items with a Point geometry.

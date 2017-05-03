@@ -19,3 +19,7 @@
 11	482	0	CMakeFiles/helloar.dir/src/main/cpp/helloar.cc.o	bc8790c80796cb03
 7	578	0	CMakeFiles/helloar.dir/src/main/cpp/ar.cc.o	e1d875611ec0b8f6
 578	713	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libhelloar.so	2dd2b8a453c452b3
+1	4129	0	CMakeFiles/helloar.dir/src/main/cpp/renderer.cc.o	7373ab1c965cf637
+304	4663	0	CMakeFiles/helloar.dir/src/main/cpp/helloar.cc.o	bc8790c80796cb03
+346	5395	0	CMakeFiles/helloar.dir/src/main/cpp/ar.cc.o	e1d875611ec0b8f6
+5395	7004	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libhelloar.so	2dd2b8a453c452b3

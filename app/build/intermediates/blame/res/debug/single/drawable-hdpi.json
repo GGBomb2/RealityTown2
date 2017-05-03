@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_markg.png",
-        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-hdpi\\icon_markg.png"
-    },
-    {
         "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\popup_middle.png",
         "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-hdpi\\popup_middle.png"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_markg.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-hdpi\\icon_markg.png"
     },
     {
         "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\s_cn.png",

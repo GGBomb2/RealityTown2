@@ -8,12 +8,6 @@ import android.content.Context;
 import android.os.AsyncTask;
 import android.os.Build;
 
-import cn.baidu.mapapi.clusterutil.MarkerManager;
-import cn.baidu.mapapi.clusterutil.clustering.algo.Algorithm;
-import cn.baidu.mapapi.clusterutil.clustering.algo.NonHierarchicalDistanceBasedAlgorithm;
-import cn.baidu.mapapi.clusterutil.clustering.algo.PreCachingAlgorithmDecorator;
-import cn.baidu.mapapi.clusterutil.clustering.view.ClusterRenderer;
-import cn.baidu.mapapi.clusterutil.clustering.view.DefaultClusterRenderer;
 import com.baidu.mapapi.map.BaiduMap;
 import com.baidu.mapapi.map.MapStatus;
 import com.baidu.mapapi.map.Marker;
@@ -22,6 +16,13 @@ import java.util.Collection;
 import java.util.Set;
 import java.util.concurrent.locks.ReadWriteLock;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
+
+import cn.baidu.mapapi.clusterutil.MarkerManager;
+import cn.baidu.mapapi.clusterutil.clustering.algo.Algorithm;
+import cn.baidu.mapapi.clusterutil.clustering.algo.NonHierarchicalDistanceBasedAlgorithm;
+import cn.baidu.mapapi.clusterutil.clustering.algo.PreCachingAlgorithmDecorator;
+import cn.baidu.mapapi.clusterutil.clustering.view.ClusterRenderer;
+import cn.baidu.mapapi.clusterutil.clustering.view.DefaultClusterRenderer;
 
 /**
  * Groups many items on a map based on zoom level.

@@ -1,11 +1,303 @@
 [
     {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\superid_common_edit_avatar_ico.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\superid_common_edit_avatar_ico.png"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\superid_demo_avatar_img_default.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\superid_demo_avatar_img_default.png"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\calibrate_4.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\calibrate_4.png"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\superid_common_edit_nickname_ico_disable.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\superid_common_edit_nickname_ico_disable.png"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\superid_guideview_faceerror_img.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\superid_guideview_faceerror_img.png"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\superid_common_confirm_btn_normal_disable.9.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\superid_common_confirm_btn_normal_disable.9.png"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\superid_common_confirm_btn_normal.9.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\superid_common_confirm_btn_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\superid_common_edit_nickname_ico_normal.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\superid_common_edit_nickname_ico_normal.png"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\altitude.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\altitude.png"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\superid_ico_fakeid_guideview_tips1.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\superid_ico_fakeid_guideview_tips1.png"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\calibrate_5.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\calibrate_5.png"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\compass.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\compass.png"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\superid_demo_binding_weibo_ico_disable.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\superid_demo_binding_weibo_ico_disable.png"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\superid_common_empower_select_ico_normal.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\superid_common_empower_select_ico_normal.png"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\superid_avatar_img_bg.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\superid_avatar_img_bg.png"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\superid_demo_avatarbg.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\superid_demo_avatarbg.png"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\superid_image_progress.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\superid_image_progress.png"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\superid_guideview_rebind_shake_ico.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\superid_guideview_rebind_shake_ico.png"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\calibrate_3.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\calibrate_3.png"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\app_icon.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\app_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\calibrate_6.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\calibrate_6.png"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\superid_common_empower_bg_up.9.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\superid_common_empower_bg_up.9.png"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\superid_common_viewbg_img.9.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\superid_common_viewbg_img.9.png"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\superid_common_confirm_btn_normal_unclickable.9.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\superid_common_confirm_btn_normal_unclickable.9.png"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\altitude_bg.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\altitude_bg.png"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\superid_ico_fakeid_guideview_agree.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\superid_ico_fakeid_guideview_agree.png"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\superid_demo_login_superid_ico_disable.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\superid_demo_login_superid_ico_disable.png"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\superid_guideview_scanface_img.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\superid_guideview_scanface_img.png"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\superid_common_back_btn_normal.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\superid_common_back_btn_normal.png"
+    },
+    {
         "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\background.png",
         "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\background.png"
     },
     {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\superid_common_authorize_edit_ico.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\superid_common_authorize_edit_ico.png"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\superid_demo_binding_weibo_ico_normal.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\superid_demo_binding_weibo_ico_normal.png"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\superid_common_empower_select_ico_disable.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\superid_common_empower_select_ico_disable.png"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\superid_demo_login_wechat_ico_normal.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\superid_demo_login_wechat_ico_normal.png"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\superid_tips_scanface_img.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\superid_tips_scanface_img.png"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\calibrate_2.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\calibrate_2.png"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\superid_demo_avatar_img_meijia.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\superid_demo_avatar_img_meijia.png"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\superid_demo_cleandate_img_normal.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\superid_demo_cleandate_img_normal.png"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\superid_demo_confirm_btn_disable.9.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\superid_demo_confirm_btn_disable.9.png"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_launcher.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\degree.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\degree.png"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\facedatabg.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\facedatabg.png"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\superid_common_secureemail_bg_img.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\superid_common_secureemail_bg_img.png"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\superid_demo_back_btn_disable.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\superid_demo_back_btn_disable.png"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\superid_ico_fakeid_guideview_tips2.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\superid_ico_fakeid_guideview_tips2.png"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\superid_editbox_focus.9.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\superid_editbox_focus.9.png"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\pressure.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\pressure.png"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\superid_common_edit_mail_ico_normal.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\superid_common_edit_mail_ico_normal.png"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\superid_demo_binding_superid_ico_disable.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\superid_demo_binding_superid_ico_disable.png"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\superid_common_delete_btn_normal.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\superid_common_delete_btn_normal.png"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\superid_demo_cleandate_img_disable.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\superid_demo_cleandate_img_disable.png"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\superid_guideview_facelock_img.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\superid_guideview_facelock_img.png"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\superid_demo_appicon_img.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\superid_demo_appicon_img.png"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\superid_common_superidlogo_img.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\superid_common_superidlogo_img.png"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\number_9.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\number_9.png"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\superid_guideview_rebind_light_ico.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\superid_guideview_rebind_light_ico.png"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\number_0.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\number_0.png"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\number_3.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\number_3.png"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\number_6.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\number_6.png"
+    },
+    {
         "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\number_4.png",
         "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\number_4.png"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\superid_common_delete_btn_pressed.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\superid_common_delete_btn_pressed.png"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\superid_common_tips_nightmode_lighton_img.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\superid_common_tips_nightmode_lighton_img.png"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\superid_editbox_normal.9.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\superid_editbox_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\superid_common_tips2_ico.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\superid_common_tips2_ico.png"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\number_5.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\number_5.png"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\superid_demo_login_superid_ico_normal.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\superid_demo_login_superid_ico_normal.png"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\superid_avatar_img_default.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\superid_avatar_img_default.png"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\superid_common_tips1_ico.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\superid_common_tips1_ico.png"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\number_2.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\number_2.png"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\superid_common_edit_mobilephone_ico_normal.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\superid_common_edit_mobilephone_ico_normal.png"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\superid_common_edit_mobilephone_ico_disable.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\superid_common_edit_mobilephone_ico_disable.png"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\superid_demo_login_weibo_ico_disable.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\superid_demo_login_weibo_ico_disable.png"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\superid_show_head_toast_bg.9.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\superid_show_head_toast_bg.9.png"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\superid_common_guideview_btn_normal.9.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\superid_common_guideview_btn_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\superid_common_authorize_bg_img.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\superid_common_authorize_bg_img.png"
     },
     {
         "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\guide.png",
@@ -20,91 +312,115 @@
         "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\number_1.png"
     },
     {
-        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\calibrate_4.png",
-        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\calibrate_4.png"
-    },
-    {
         "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\calibrate_7.png",
         "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\calibrate_7.png"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\superid_guideview_rebind_dark_ico.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\superid_guideview_rebind_dark_ico.png"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\superid_common_alert_fail_img.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\superid_common_alert_fail_img.png"
     },
     {
         "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\calibrate_1.png",
         "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\calibrate_1.png"
     },
     {
-        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\altitude.png",
-        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\altitude.png"
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\superid_common_empower_bg_down.9.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\superid_common_empower_bg_down.9.png"
     },
     {
-        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\calibrate_5.png",
-        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\calibrate_5.png"
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\superid_ico_fakeid_guideview_tips3.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\superid_ico_fakeid_guideview_tips3.png"
     },
     {
-        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\calibrate_2.png",
-        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\calibrate_2.png"
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\superid_guideview_facebinding_img.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\superid_guideview_facebinding_img.png"
     },
     {
-        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\compass.png",
-        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\compass.png"
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\superid_demo_login_weibo_ico_normal.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\superid_demo_login_weibo_ico_normal.png"
     },
     {
-        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\number_5.png",
-        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\number_5.png"
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\superid_demo_logo_img.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\superid_demo_logo_img.png"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\superid_common_edit_mail_ico_disable.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\superid_common_edit_mail_ico_disable.png"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\superid_demo_back_btn_normal.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\superid_demo_back_btn_normal.png"
     },
     {
         "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\number_8.png",
         "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\number_8.png"
     },
     {
-        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\degree.png",
-        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\degree.png"
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\superid_common_back_btn_disable.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\superid_common_back_btn_disable.png"
     },
     {
         "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\button_guide.png",
         "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\button_guide.png"
     },
     {
-        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\calibrate_3.png",
-        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\calibrate_3.png"
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\superid_demo_login_wechat_ico_disable.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\superid_demo_login_wechat_ico_disable.png"
     },
     {
-        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\pressure.png",
-        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\pressure.png"
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\superid_demo_binding_superid_ico_normal.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\superid_demo_binding_superid_ico_normal.png"
     },
     {
-        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\app_icon.png",
-        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\app_icon.png"
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\superid_common_confirm_btn_normal_dark.9.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\superid_common_confirm_btn_normal_dark.9.png"
     },
     {
-        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\calibrate_6.png",
-        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\calibrate_6.png"
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\superid_demo_binding_wechat_ico_normal.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\superid_demo_binding_wechat_ico_normal.png"
     },
     {
-        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\number_2.png",
-        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\number_2.png"
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\superid_common_alert_success_img.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\superid_common_alert_success_img.png"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\superid_demo_confirm_btn_normal.9.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\superid_demo_confirm_btn_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\superid_common_tips_nightmode_jack_img.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\superid_common_tips_nightmode_jack_img.png"
     },
     {
         "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\pressure_bg.png",
         "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\pressure_bg.png"
     },
     {
-        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\altitude_bg.png",
-        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\altitude_bg.png"
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\superid_guideview_rebind_img.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\superid_guideview_rebind_img.png"
     },
     {
-        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\number_9.png",
-        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\number_9.png"
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\superid_guideview_record_img.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\superid_guideview_record_img.png"
     },
     {
-        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\number_0.png",
-        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\number_0.png"
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\superid_demo_usercenterbg_img.9.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\superid_demo_usercenterbg_img.9.png"
     },
     {
-        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\number_3.png",
-        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\number_3.png"
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\superid_demo_binding_wechat_ico_disable.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\superid_demo_binding_wechat_ico_disable.png"
     },
     {
-        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\number_6.png",
-        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\number_6.png"
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\superid_common_confirm_btn_disable.9.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\superid_common_confirm_btn_disable.9.png"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\superid_input_bg_focus.9.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\superid_input_bg_focus.9.png"
     }
 ]

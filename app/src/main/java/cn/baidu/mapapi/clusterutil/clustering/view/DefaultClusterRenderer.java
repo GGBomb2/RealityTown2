@@ -25,13 +25,6 @@ import android.util.SparseArray;
 import android.view.ViewGroup;
 import android.view.animation.DecelerateInterpolator;
 
-import cn.baidu.mapapi.clusterutil.MarkerManager;
-import cn.baidu.mapapi.clusterutil.clustering.Cluster;
-import cn.baidu.mapapi.clusterutil.clustering.ClusterItem;
-import cn.baidu.mapapi.clusterutil.clustering.ClusterManager;
-import cn.baidu.mapapi.clusterutil.projection.Point;
-import cn.baidu.mapapi.clusterutil.projection.SphericalMercatorProjection;
-import cn.baidu.mapapi.clusterutil.ui.IconGenerator;
 import com.baidu.mapapi.map.BaiduMap;
 import com.baidu.mapapi.map.BitmapDescriptor;
 import com.baidu.mapapi.map.BitmapDescriptorFactory;
@@ -54,10 +47,19 @@ import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
-//import baidumapsdk.demo.R;
+import cn.baidu.mapapi.clusterutil.MarkerManager;
+import cn.baidu.mapapi.clusterutil.clustering.Cluster;
+import cn.baidu.mapapi.clusterutil.clustering.ClusterItem;
+import cn.baidu.mapapi.clusterutil.clustering.ClusterManager;
+import cn.baidu.mapapi.clusterutil.projection.Point;
+import cn.baidu.mapapi.clusterutil.projection.SphericalMercatorProjection;
+import cn.baidu.mapapi.clusterutil.ui.IconGenerator;
 import cn.easyar.samples.helloar.R;
-//import static com.baidu.location.h.j.R;
+
 import static cn.baidu.mapapi.clusterutil.clustering.algo.NonHierarchicalDistanceBasedAlgorithm.MAX_DISTANCE_AT_ZOOM;
+
+//import baidumapsdk.demo.R;
+//import static com.baidu.location.h.j.R;
 
 
 /**

@@ -5,11 +5,11 @@
 package cn.baidu.mapapi.clusterutil.clustering.algo;
 
 
-import cn.baidu.mapapi.clusterutil.clustering.Cluster;
-import cn.baidu.mapapi.clusterutil.clustering.ClusterItem;
-
 import java.util.Collection;
 import java.util.Set;
+
+import cn.baidu.mapapi.clusterutil.clustering.Cluster;
+import cn.baidu.mapapi.clusterutil.clustering.ClusterItem;
 
 /**
  * Logic for computing clusters

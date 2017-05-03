@@ -4,13 +4,14 @@
 
 package cn.baidu.mapapi.clusterutil.clustering.algo;
 
-import cn.baidu.mapapi.clusterutil.clustering.Cluster;
-import cn.baidu.mapapi.clusterutil.clustering.ClusterItem;
 import com.baidu.mapapi.model.LatLng;
 
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
+
+import cn.baidu.mapapi.clusterutil.clustering.Cluster;
+import cn.baidu.mapapi.clusterutil.clustering.ClusterItem;
 
 /**
  * A cluster whose center is determined upon creation.
