@@ -9,13 +9,18 @@ package cn.easyar.samples.helloar;
 import android.app.Activity;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
+import android.content.BroadcastReceiver;
 import android.content.Context;
+import android.content.Intent;
+import android.content.IntentFilter;
 import android.content.res.Configuration;
+import android.graphics.Color;
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -23,9 +28,11 @@ import android.view.ViewGroup;
 import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.widget.ZoomControls;
 
 import com.baidu.location.BDLocation;
 import com.baidu.location.BDLocationListener;
@@ -37,6 +44,7 @@ import com.baidu.mapapi.map.BitmapDescriptor;
 import com.baidu.mapapi.map.BitmapDescriptorFactory;
 import com.baidu.mapapi.map.InfoWindow;
 import com.baidu.mapapi.map.MapPoi;
+import com.baidu.mapapi.map.MapStatus;
 import com.baidu.mapapi.map.MapStatusUpdate;
 import com.baidu.mapapi.map.MapStatusUpdateFactory;
 import com.baidu.mapapi.map.MapView;
@@ -60,16 +68,44 @@ import com.baidu.mapapi.search.route.TransitRouteResult;
 import com.baidu.mapapi.search.route.WalkingRouteLine;
 import com.baidu.mapapi.search.route.WalkingRoutePlanOption;
 import com.baidu.mapapi.search.route.WalkingRouteResult;
+import com.isnc.facesdk.common.Cache;
+import com.isnc.facesdk.common.SDKConfig;
+
+import java.io.File;
 
 import cn.baidu.mapapi.overlayutil.DrivingRouteOverlay;
 import cn.baidu.mapapi.overlayutil.OverlayManager;
 import cn.baidu.mapapi.overlayutil.TransitRouteOverlay;
 import cn.baidu.mapapi.overlayutil.WalkingRouteOverlay;
-import cn.easyar.engine.EasyAR;
 
 
 public class MainActivity extends Activity implements BaiduMap.OnMapClickListener,
         OnGetRoutePlanResultListener {
+
+    /**
+     * 构造广播监听类，监听 SDK key 验证以及网络异常广播
+     */
+    public class SDKReceiver extends BroadcastReceiver {
+
+        public void onReceive(Context context, Intent intent) {
+            String s = intent.getAction();
+            String text = "";
+//            text.setTextColor(Color.RED);
+            if (s.equals(SDKInitializer.SDK_BROADTCAST_ACTION_STRING_PERMISSION_CHECK_ERROR)) {
+                text+="key 验证出错! 错误码 :" + intent.getIntExtra
+                        (SDKInitializer.SDK_BROADTCAST_INTENT_EXTRA_INFO_KEY_ERROR_CODE, 0)
+                        + " ; 请在 AndroidManifest.xml 文件中检查 key 设置";
+            } else if (s.equals(SDKInitializer.SDK_BROADTCAST_ACTION_STRING_PERMISSION_CHECK_OK)) {
+                text+="key 验证成功! 功能可以正常使用";
+//                text.setTextColor(Color.YELLOW);
+            } else if (s.equals(SDKInitializer.SDK_BROADCAST_ACTION_STRING_NETWORK_ERROR)) {
+                text+="网络出错";
+            }
+            Toast.makeText(context,text,Toast.LENGTH_LONG).show();
+        }
+    }
+
+    private SDKReceiver mReceiver;
 
     /*
     * Steps to create the key for this sample:
@@ -80,18 +116,18 @@ public class MainActivity extends Activity implements BaiduMap.OnMapClickListene
     *  3. find the created item in the list and show key
     *  4. set key string bellow
     */
-    static String key = "3oGFVmrPjkiX4Rq73PVoNDrPIZRHjOTFffMavf6p1EvJZx2bpH8CdThrigk9tm1cTU88zqxqcrtrDamqEY9IUtsApTwwFwm5OFgZ197ed512dda1551d5d45286ec6a55b8awEq3rqvbTnlIPRAHPmOHtEsmjsPxKJtf8g2PUPcmGsW1SHocR9tWxBDOeUlQDLodGg6F";
-
-    static {
-        System.loadLibrary("helloar");
-    }
-
-    public static native void nativeInitGL();
-    public static native void nativeResizeGL(int w, int h);
-    public static native void nativeRender();
-    private native boolean nativeInit();
-    private native void nativeDestory();
-    private native void nativeRotationChange(boolean portrait);
+//    static String key = "3oGFVmrPjkiX4Rq73PVoNDrPIZRHjOTFffMavf6p1EvJZx2bpH8CdThrigk9tm1cTU88zqxqcrtrDamqEY9IUtsApTwwFwm5OFgZ197ed512dda1551d5d45286ec6a55b8awEq3rqvbTnlIPRAHPmOHtEsmjsPxKJtf8g2PUPcmGsW1SHocR9tWxBDOeUlQDLodGg6F";
+//
+//    static {
+//        System.loadLibrary("helloar");
+//    }
+//
+//    public static native void nativeInitGL();
+//    public static native void nativeResizeGL(int w, int h);
+//    public static native void nativeRender();
+//    private native boolean nativeInit();
+//    private native void nativeDestory();
+//    private native void nativeRotationChange(boolean portrait);
 
     MapView mMapView=null;
     BaiduMap mBaiduMap;
@@ -100,7 +136,7 @@ public class MainActivity extends Activity implements BaiduMap.OnMapClickListene
     // 定位相关
     LocationClient mLocClient;
     public MyLocationListenner myListener = new MyLocationListenner();
-    private MyLocationConfiguration.LocationMode mCurrentMode;
+    public MyLocationConfiguration.LocationMode mCurrentMode;
     BitmapDescriptor mCurrentMarker;
     // UI相关
     boolean isFirstLoc = true;// 是否首次定位
@@ -122,38 +158,42 @@ public class MainActivity extends Activity implements BaiduMap.OnMapClickListene
     RouteLine route = null;
     OverlayManager routeOverlay = null;
     boolean useDefaultIcon = false;
-    private TextView popupText = null;//泡泡view
+    public TextView popupText = null;//泡泡view
     int nodeIndex = -1;//节点索引,供浏览节点时使用
+
+    public MyLocationData locData;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         SDKInitializer.initialize(getApplicationContext());
 
-        setContentView(R.layout.activity_main);
         //设置无标题
-//        requestWindowFeature(Window.FEATURE_NO_TITLE);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON, WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
+        setContentView(R.layout.activity_main);
         setDefaultFragment();                                  //设置默认模块
-        EasyAR.initialize(this, key);
-        nativeInit();
+//        mLatitudeTV=(TextView) findViewById(R.id.mLatitudeTV);
 
-        GLView glView = new GLView(this);
-        glView.setRenderer(new Renderer());
-        glView.setZOrderMediaOverlay(true);
+        // 注册 SDK 广播监听者
+        IntentFilter iFilter = new IntentFilter();
+        iFilter.addAction(SDKInitializer.SDK_BROADTCAST_ACTION_STRING_PERMISSION_CHECK_OK);
+        iFilter.addAction(SDKInitializer.SDK_BROADTCAST_ACTION_STRING_PERMISSION_CHECK_ERROR);
+        iFilter.addAction(SDKInitializer.SDK_BROADCAST_ACTION_STRING_NETWORK_ERROR);
+        mReceiver = new SDKReceiver();
+        registerReceiver(mReceiver, iFilter);
 
-        viewGroup=(ViewGroup) findViewById(R.id.id_content);
-
-        viewGroup.addView(glView, new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT));
-        nativeRotationChange(getWindowManager().getDefaultDisplay().getRotation() == android.view.Surface.ROTATION_0);
         //获取地图控件引用
-        mMapView=new MapView(this);
-        
-//        mMapView = (MapView) findViewById(R.id.bmapView);
-        RelativeLayout raly=(RelativeLayout)findViewById(R.id.relativeLayout);
-        //mMapView=new MapView(this,new BaiduMapOptions().compassEnabled(false));
-        //raly.addView(mMapView);
+        mMapView = (MapView) findViewById(R.id.bmapView);
+//        RelativeLayout raly=(RelativeLayout)findViewById(R.id.relativeLayout);
+
         mMapView.showZoomControls(false);
+
+        View child = mMapView.getChildAt(1);
+        if (child != null && (child instanceof ImageView || child instanceof ZoomControls)){
+            child.setVisibility(View.INVISIBLE);
+        }
+        mMapView.setZOrderMediaOverlay(false);
         mMapView.bringToFront();
         mCurrentMode = MyLocationConfiguration.LocationMode.COMPASS;//地图罗盘模式
         mBaiduMap = mMapView.getMap();
@@ -181,11 +221,9 @@ public class MainActivity extends Activity implements BaiduMap.OnMapClickListene
         mSearch.setOnGetRoutePlanResultListener(this);
 
         //Compass
-        //setContentView(R.layout.activity_main);
         initResources();// 初始化view
         initServices();// 初始化传感器和位置服务
         mLocClient.start();                                   //开始定位
-        ////mCompassView.bringToFront();
 
     }
 
@@ -201,8 +239,9 @@ public class MainActivity extends Activity implements BaiduMap.OnMapClickListene
     @Override
     public void onConfigurationChanged(Configuration config) {
         super.onConfigurationChanged(config);
-        nativeRotationChange(getWindowManager().getDefaultDisplay().getRotation() == android.view.Surface.ROTATION_0);
+//        nativeRotationChange(getWindowManager().getDefaultDisplay().getRotation() == android.view.Surface.ROTATION_0);
     }
+
 
     @Override
     protected void onDestroy() {
@@ -213,23 +252,21 @@ public class MainActivity extends Activity implements BaiduMap.OnMapClickListene
         mSearch.destroy();
         mMapView.onDestroy();
         mMapView = null;
+        unregisterReceiver(mReceiver);
         super.onDestroy();
-        nativeDestory();
+
+//        nativeDestory();
     }
     @Override
     protected void onResume() {// 在恢复的生命周期里判断、启动位置更新服务和传感器服务
 
         mMapView.onResume();
         super.onResume();
-        EasyAR.onResume();
+//        EasyAR.onResume();
         // activity 恢复时同时恢复地图控件
         if (mOrientationSensor != null) {
             mSensorManager.registerListener(mOrientationSensorEventListener,
-                    mOrientationSensor, SensorManager.SENSOR_DELAY_GAME);
-        } else {
-            // Toast.makeText(this, R.string.cannot_get_sensor,
-            // Toast.LENGTH_SHORT)
-            // .show();
+                    mOrientationSensor, SensorManager.SENSOR_DELAY_UI);
         }
         //mStopDrawing=false;
         //mHandler.postDelayed(mCompassViewUpdater,20);
@@ -240,7 +277,7 @@ public class MainActivity extends Activity implements BaiduMap.OnMapClickListene
         // activity 暂停时同时暂停地图控件
         mMapView.onPause();
         super.onPause();
-        EasyAR.onPause();
+//        EasyAR.onPause();
         if (mOrientationSensor != null) {
             mSensorManager.unregisterListener(mOrientationSensorEventListener);
         }
@@ -251,6 +288,7 @@ public class MainActivity extends Activity implements BaiduMap.OnMapClickListene
         getMenuInflater().inflate(R.menu.menu_main, menu);
         return true;
     }
+
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
@@ -273,7 +311,7 @@ public class MainActivity extends Activity implements BaiduMap.OnMapClickListene
             // map view 销毁后不在处理新接收的位置
             if (location == null || mMapView == null)
                 return;
-            MyLocationData locData = new MyLocationData.Builder()
+            locData = new MyLocationData.Builder()
                     .accuracy(location.getRadius())
                     // 此处设置开发者获取到的方向信息，顺时针0-360
                     .direction(mTargetDirection*-1.0f)      //      *-1.0f反相效果
@@ -284,8 +322,11 @@ public class MainActivity extends Activity implements BaiduMap.OnMapClickListene
                 isFirstLoc = false;
                 LatLng ll = new LatLng(location.getLatitude(),
                         location.getLongitude());
-                MapStatusUpdate u = MapStatusUpdateFactory.newLatLng(ll);
-                mBaiduMap.animateMapStatus(u);
+                MapStatus.Builder builder = new MapStatus.Builder();
+                builder.target(ll).zoom(18.0f);
+                mBaiduMap.animateMapStatus(MapStatusUpdateFactory.newMapStatus(builder.build()));
+//                MapStatusUpdate u = MapStatusUpdateFactory.newLatLng(ll);
+//                mBaiduMap.animateMapStatus(u);
             }
             //Compass
             StringBuffer sb = new StringBuffer(256);
@@ -341,7 +382,7 @@ public class MainActivity extends Activity implements BaiduMap.OnMapClickListene
 
             if(mDestination==null)
             {
-                Toast.makeText(this,"没有目的地",Toast.LENGTH_SHORT);return;
+                Toast.makeText(this,"没有目的地",Toast.LENGTH_SHORT).show();return;
             }
             PlanNode enNode = PlanNode.withLocation(mDestination);
             mSurfaceFragment.poiinfos=null;
@@ -674,8 +715,8 @@ public class MainActivity extends Activity implements BaiduMap.OnMapClickListene
     private void initServices() {
         // sensor manager
         mSensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
-        mOrientationSensor = mSensorManager.getSensorList(
-                Sensor.TYPE_ORIENTATION).get(0);//
+        mOrientationSensor = mSensorManager.getDefaultSensor(
+                Sensor.TYPE_ORIENTATION);//
         // Log.i("way", mOrientationSensor.getName());
         // location manager
         // mLocationManager = (LocationManager)
@@ -706,6 +747,35 @@ public class MainActivity extends Activity implements BaiduMap.OnMapClickListene
         public void onAccuracyChanged(Sensor sensor, int accuracy) {
         }
     };
+
+    // 清除缓存
+    public void btn_clear(View v) {
+        Cache.clearCached(this);
+        delete(new File(SDKConfig.TEMP_PATH));
+        Intent intent = new Intent(this, Aty_Welcome.class);
+        startActivity(intent);
+        finish();
+    }
+
+    public static void delete(File file) {
+        if (file.isFile()) {
+            file.delete();
+            return;
+        }
+
+        if (file.isDirectory()) {
+            File[] childFiles = file.listFiles();
+            if (childFiles == null || childFiles.length == 0) {
+                file.delete();
+                return;
+            }
+
+            for (int i = 0; i < childFiles.length; i++) {
+                delete(childFiles[i]);
+            }
+            file.delete();
+        }
+    }
 
     // 调整方向传感器获取的值
     private float normalizeDegree(float degree) {

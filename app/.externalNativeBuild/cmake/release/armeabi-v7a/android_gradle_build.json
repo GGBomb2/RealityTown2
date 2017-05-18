@@ -1,51 +1,58 @@
+
 {
-  "buildFiles": [
-    "C:/Users/foresee/Downloads/HelloARNative/app/CMakeLists.txt"
-  ],
-  "cleanCommands": [
-    "C:\\Users\\foresee\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.3155560\\bin\\cmake.exe --build C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\.externalNativeBuild\\cmake\\release\\armeabi-v7a --target clean"
-  ],
-  "cppFileExtensions": [
-    "cc"
-  ],
-  "libraries": {
-    "helloar-Release-armeabi-v7a": {
-      "abi": "armeabi-v7a",
-      "artifactName": "helloar",
-      "buildCommand": "C:\\Users\\foresee\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.3155560\\bin\\cmake.exe --build C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\.externalNativeBuild\\cmake\\release\\armeabi-v7a --target helloar",
-      "buildType": "release",
-      "files": [
-        {
-          "flags": "  --target=armv7-none-linux-androideabi --gcc-toolchain=C:/Users/foresee/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/foresee/AppData/Local/Android/sdk/ndk-bundle/platforms/android-15/arch-arm  -Dhelloar_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -isystem C:\\Users\\foresee\\AppData\\Local\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem C:\\Users\\foresee\\AppData\\Local\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem C:\\Users\\foresee\\AppData\\Local\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -std=gnu++11 -Os -DNDEBUG -Os -DNDEBUG  -fPIC    -c ",
-          "src": "C:/Users/foresee/Downloads/HelloARNative/app/src/main/cpp/ar.cc",
-          "workingDirectory": "C:/Users/foresee/Downloads/HelloARNative/app/.externalNativeBuild/cmake/release/armeabi-v7a"
-        },
-        {
-          "flags": "  --target=armv7-none-linux-androideabi --gcc-toolchain=C:/Users/foresee/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/foresee/AppData/Local/Android/sdk/ndk-bundle/platforms/android-15/arch-arm  -Dhelloar_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -isystem C:\\Users\\foresee\\AppData\\Local\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem C:\\Users\\foresee\\AppData\\Local\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem C:\\Users\\foresee\\AppData\\Local\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -std=gnu++11 -Os -DNDEBUG -Os -DNDEBUG  -fPIC    -c ",
-          "src": "C:/Users/foresee/Downloads/HelloARNative/app/src/main/cpp/renderer.cc",
-          "workingDirectory": "C:/Users/foresee/Downloads/HelloARNative/app/.externalNativeBuild/cmake/release/armeabi-v7a"
-        },
-        {
-          "flags": "  --target=armv7-none-linux-androideabi --gcc-toolchain=C:/Users/foresee/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/foresee/AppData/Local/Android/sdk/ndk-bundle/platforms/android-15/arch-arm  -Dhelloar_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -isystem C:\\Users\\foresee\\AppData\\Local\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem C:\\Users\\foresee\\AppData\\Local\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem C:\\Users\\foresee\\AppData\\Local\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -std=gnu++11 -Os -DNDEBUG -Os -DNDEBUG  -fPIC    -c ",
-          "src": "C:/Users/foresee/Downloads/HelloARNative/app/src/main/cpp/helloar.cc",
-          "workingDirectory": "C:/Users/foresee/Downloads/HelloARNative/app/.externalNativeBuild/cmake/release/armeabi-v7a"
-        }
-      ],
-      "output": "C:/Users/foresee/Downloads/HelloARNative/app/build/intermediates/cmake/release/obj/armeabi-v7a/libhelloar.so",
-      "toolchain": "2673961913"
-    },
-    "lib_easyar-Release-armeabi-v7a": {
-      "abi": "armeabi-v7a",
-      "artifactName": "lib_easyar",
-      "buildType": "release",
-      "output": "C:/Users/foresee/Downloads/HelloARNative/app/src/main/jniLibs/armeabi-v7a/libEasyAR.so",
-      "toolchain": "2673961913"
-    }
-  },
-  "toolchains": {
-    "2673961913": {
-      "cCompilerExecutable": "C:/Users/foresee/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
-      "cppCompilerExecutable": "C:/Users/foresee/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
-    }
-  }
+	"buildFiles" : [ "C:/Users/foresee/Downloads/HelloARNative/app/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"C:\\Users\\foresee\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.3155560\\bin\\cmake.exe --build C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\.externalNativeBuild\\cmake\\release\\armeabi-v7a --target clean"
+	],
+	"cppFileExtensions" : [ "cc" ],
+	"libraries" : 
+	{
+		"helloar-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "helloar",
+			"buildCommand" : "C:\\Users\\foresee\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.3155560\\bin\\cmake.exe --build C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\.externalNativeBuild\\cmake\\release\\armeabi-v7a --target helloar",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=C:/Users/foresee/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/foresee/AppData/Local/Android/sdk/ndk-bundle/platforms/android-15/arch-arm  -Dhelloar_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -isystem C:\\Users\\foresee\\AppData\\Local\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem C:\\Users\\foresee\\AppData\\Local\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem C:\\Users\\foresee\\AppData\\Local\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -std=gnu++11 -Os -DNDEBUG -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "C:/Users/foresee/Downloads/HelloARNative/app/src/main/cpp/ar.cc",
+					"workingDirectory" : "C:/Users/foresee/Downloads/HelloARNative/app/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=C:/Users/foresee/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/foresee/AppData/Local/Android/sdk/ndk-bundle/platforms/android-15/arch-arm  -Dhelloar_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -isystem C:\\Users\\foresee\\AppData\\Local\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem C:\\Users\\foresee\\AppData\\Local\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem C:\\Users\\foresee\\AppData\\Local\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -std=gnu++11 -Os -DNDEBUG -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "C:/Users/foresee/Downloads/HelloARNative/app/src/main/cpp/renderer.cc",
+					"workingDirectory" : "C:/Users/foresee/Downloads/HelloARNative/app/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=C:/Users/foresee/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/foresee/AppData/Local/Android/sdk/ndk-bundle/platforms/android-15/arch-arm  -Dhelloar_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -isystem C:\\Users\\foresee\\AppData\\Local\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem C:\\Users\\foresee\\AppData\\Local\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem C:\\Users\\foresee\\AppData\\Local\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -std=gnu++11 -Os -DNDEBUG -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "C:/Users/foresee/Downloads/HelloARNative/app/src/main/cpp/helloar.cc",
+					"workingDirectory" : "C:/Users/foresee/Downloads/HelloARNative/app/.externalNativeBuild/cmake/release/armeabi-v7a"
+				}
+			],
+			"output" : "C:/Users/foresee/Downloads/HelloARNative/app/build/intermediates/cmake/release/obj/armeabi-v7a/libhelloar.so",
+			"toolchain" : "2673961913"
+		},
+		"lib_easyar-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "lib_easyar",
+			"buildType" : "release",
+			"output" : "C:/Users/foresee/Downloads/HelloARNative/app/src/main/jniLibs/armeabi-v7a/libEasyAR.so",
+			"toolchain" : "2673961913"
+		}
+	},
+	"toolchains" : 
+	{
+		"2673961913" : 
+		{
+			"cCompilerExecutable" : "C:/Users/foresee/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "C:/Users/foresee/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
 }

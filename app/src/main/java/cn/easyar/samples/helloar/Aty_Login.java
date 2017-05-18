@@ -25,6 +25,7 @@ public class Aty_Login extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.aty_login);
 		context = this;
+
 	}
 
 	// 一般登录
@@ -118,6 +119,7 @@ public class Aty_Login extends Activity {
 				userInfo = Cache.getCached(context, SDKConfig.KEY_APPINFO);
 			Toast.makeText(context,openid,Toast.LENGTH_SHORT).show();
 			Toast.makeText(context, "授权成功", Toast.LENGTH_SHORT).show();
+			startActivity(new Intent(this, MainActivity.class));
 			finish();
 			break;
 		// 取消授权
@@ -136,6 +138,7 @@ public class Aty_Login extends Activity {
 //            < !-- userInfo 为SuperID用户信息，格式为json -->
 				userInfo = Cache.getCached(context, SDKConfig.KEY_APPINFO);
 			Toast.makeText(context, "登录成功", Toast.LENGTH_SHORT).show();
+			startActivity(new Intent(this, MainActivity.class));
 			finish();
 			break;
 		// 登录失败

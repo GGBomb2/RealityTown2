@@ -48,12 +48,12 @@
         "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\layout\\activity_favorite.xml"
     },
     {
-        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_cloud_search_demo.xml",
-        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\layout\\activity_cloud_search_demo.xml"
-    },
-    {
         "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
         "source": "C:\\Users\\foresee\\.android\\build-cache\\98f4cd82ee7154f7ce069e4cdc85556e3b884982\\output\\res\\layout\\notification_template_lines_media.xml"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_cloud_search_demo.xml",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\layout\\activity_cloud_search_demo.xml"
     },
     {
         "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\aty_faceemotion.xml",
@@ -344,12 +344,12 @@
         "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\layout\\activity_multimap.xml"
     },
     {
-        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_district_search_demo.xml",
-        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\layout\\activity_district_search_demo.xml"
-    },
-    {
         "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\aty_login.xml",
         "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\layout\\aty_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_district_search_demo.xml",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\layout\\activity_district_search_demo.xml"
     },
     {
         "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\superid_activity_agreeitem.xml",

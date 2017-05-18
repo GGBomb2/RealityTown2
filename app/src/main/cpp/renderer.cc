@@ -58,6 +58,7 @@ void Renderer::init()
     pos_trans_box = glGetUniformLocation(program_box, "trans");
     pos_proj_box = glGetUniformLocation(program_box, "proj");
 
+
     glGenBuffers(1, &vbo_coord_box);
     glBindBuffer(GL_ARRAY_BUFFER, vbo_coord_box);
     const GLfloat cube_vertices[8][3] = {
@@ -85,6 +86,9 @@ void Renderer::init()
         /* +z */{3, 2, 1, 0}, /* -y */{2, 3, 7, 6}, /* +y */{0, 1, 5, 4},
         /* -x */{3, 0, 4, 7}, /* +x */{1, 2, 6, 5}, /* -z */{4, 5, 6, 7}};
     glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(cube_faces), cube_faces, GL_STATIC_DRAW);
+    /*
+        LJJ 个性model导入
+    */
 }
 
 void Renderer::render(const Matrix44F& projectionMatrix, const Matrix44F& cameraview, Vec2F size)

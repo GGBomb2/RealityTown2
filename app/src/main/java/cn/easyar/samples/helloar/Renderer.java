@@ -14,15 +14,15 @@ import javax.microedition.khronos.opengles.GL10;
 public class Renderer implements GLSurfaceView.Renderer {
 
     public void onSurfaceCreated(GL10 gl, EGLConfig config) {
-        MainActivity.nativeInitGL();
+        SurfaceFragment2.nativeInitGL();
     }
 
     public void onSurfaceChanged(GL10 gl, int w, int h) {
-        MainActivity.nativeResizeGL(w, h);
+        SurfaceFragment2.nativeResizeGL(w, h);
     }
 
     public void onDrawFrame(GL10 gl) {
-        MainActivity.nativeRender();
+        SurfaceFragment2.nativeRender();
     }
 
 }

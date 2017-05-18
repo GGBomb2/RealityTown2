@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:2:1-148:12
+ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:2:1-142:12
 	package
 		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:3:5-40
 		INJECTED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml
@@ -17,8 +17,14 @@ uses-feature#android.hardware.camera.autofocus
 ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:4:5-70
 	android:name
 		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:4:19-67
+uses-feature#0x00020000
+ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:7:5-9:35
+	android:glEsVersion
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:8:9-41
+	android:required
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:9:9-32
 application
-ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:6:5-96:19
+ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:11:5-100:19
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\foresee\.android\build-cache\98f4cd82ee7154f7ce069e4cdc85556e3b884982\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-v4:25.3.1] C:\Users\foresee\.android\build-cache\50129a98d7b347714071e89d51bfcd4cb464efb7\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\foresee\.android\build-cache\9a9085da4705e7b05c23898b10afe190fcdeaf19\output\AndroidManifest.xml:29:5-20
@@ -29,241 +35,234 @@ MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\fores
 MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\foresee\.android\build-cache\b89e71b9b89c948dd1168ddd5c31a1ae5f7abb48\output\AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:support-compat:25.3.1] C:\Users\foresee\.android\build-cache\97a42a0ac478cc7c7d613df50e69791fb086bc1b\output\AndroidManifest.xml:29:5-20
 	android:label
-		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:9:9-41
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:14:9-41
 	android:allowBackup
-		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:7:9-35
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:12:9-35
 	android:icon
-		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:8:9-41
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:13:9-41
 	android:theme
-		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:10:9-40
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:15:9-40
 meta-data#com.baidu.lbsapi.API_KEY
-ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:11:9-13:63
+ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:16:9-18:63
 	android:value
-		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:13:13-61
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:18:13-61
 	android:name
-		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:12:13-52
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:17:13-52
 meta-data#SUPERID_APPKEY
-ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:14:9-16:56
+ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:19:9-21:56
 	android:value
-		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:16:13-53
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:21:13-53
 	android:name
-		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:15:13-42
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:20:13-42
 meta-data#SUPERID_SECRET
-ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:17:9-19:56
+ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:22:9-24:56
 	android:value
-		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:19:13-53
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:24:13-53
 	android:name
-		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:18:13-42
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:23:13-42
 activity#cn.easyar.samples.helloar.Aty_Welcome
-ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:20:9-31:20
+ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:25:9-36:20
 	android:screenOrientation
-		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:22:13-49
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:27:13-49
 	android:label
-		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:24:13-45
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:29:13-45
 	android:configChanges
-		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:23:13-93
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:28:13-93
 	android:name
-		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:21:13-65
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:26:13-65
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:25:13-29:29
+ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:30:13-34:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:26:17-69
+ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:31:17-69
 	android:name
-		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:26:25-66
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:31:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:28:17-77
+ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:33:17-77
 	android:name
-		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:28:27-74
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:33:27-74
 activity#cn.easyar.samples.helloar.MainActivity
-ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:32:9-37:20
+ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:37:9-42:20
 	android:screenOrientation
-		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:35:13-49
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:40:13-49
 	android:label
-		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:34:13-45
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:39:13-45
 	android:theme
-		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:36:13-72
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:41:13-72
 	android:name
-		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:33:13-66
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:38:13-66
 activity#com.isnc.facesdk.aty.Aty_FaceDetect
-ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:38:9-43:20
+ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:43:9-48:20
 	android:screenOrientation
-		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:41:13-49
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:46:13-49
 	android:label
-		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:40:13-45
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:45:13-45
 	android:theme
-		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:42:13-72
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:47:13-72
 	android:name
-		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:39:13-63
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:44:13-63
 activity#com.isnc.facesdk.aty.Aty_AgreeItem
-ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:44:9-49:20
+ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:49:9-54:20
 	android:screenOrientation
-		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:47:13-49
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:52:13-49
 	android:label
-		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:46:13-45
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:51:13-45
 	android:theme
-		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:48:13-72
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:53:13-72
 	android:name
-		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:45:13-62
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:50:13-62
 activity#com.isnc.facesdk.aty.Aty_EditUserinfo
-ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:50:9-54:20
-	android:screenOrientation
-		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:53:13-49
-	android:label
-		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:52:13-45
-	android:name
-		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:51:13-65
-activity#com.isnc.facesdk.aty.Aty_ClipPicture
 ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:55:9-59:20
 	android:screenOrientation
 		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:58:13-49
 	android:label
 		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:57:13-45
 	android:name
-		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:56:13-64
-activity#com.isnc.facesdk.aty.Aty_NormalFaceDetect
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:56:13-65
+activity#com.isnc.facesdk.aty.Aty_ClipPicture
 ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:60:9-64:20
 	android:screenOrientation
 		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:63:13-49
 	android:label
 		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:62:13-45
 	android:name
-		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:61:13-69
-activity#com.isnc.facesdk.aty.Aty_CountryPage
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:61:13-64
+activity#com.isnc.facesdk.aty.Aty_NormalFaceDetect
 ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:65:9-69:20
 	android:screenOrientation
 		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:68:13-49
 	android:label
 		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:67:13-45
 	android:name
-		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:66:13-64
-activity#com.isnc.facesdk.aty.Aty_Auth
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:66:13-69
+activity#com.isnc.facesdk.aty.Aty_CountryPage
 ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:70:9-74:20
 	android:screenOrientation
 		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:73:13-49
 	android:label
 		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:72:13-45
 	android:name
-		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:71:13-57
-activity#com.isnc.facesdk.aty.Aty_SecureEmail
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:71:13-64
+activity#com.isnc.facesdk.aty.Aty_Auth
 ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:75:9-79:20
 	android:screenOrientation
 		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:78:13-49
 	android:label
 		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:77:13-45
 	android:name
-		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:76:13-64
-activity#cn.easyar.samples.helloar.Aty_Login
-ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:80:9-85:20
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:76:13-57
+activity#com.isnc.facesdk.aty.Aty_SecureEmail
+ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:80:9-84:20
 	android:screenOrientation
 		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:83:13-49
 	android:label
 		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:82:13-45
+	android:name
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:81:13-64
+activity#cn.easyar.samples.helloar.Aty_Login
+ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:85:9-90:20
+	android:screenOrientation
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:88:13-49
+	android:label
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:87:13-45
 	android:theme
-		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:84:13-72
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:89:13-72
 	android:name
-		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:81:13-63
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:86:13-63
 service#com.isnc.facesdk.soloader.DownloadService
-ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:86:9-76
+ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:91:9-76
 	android:name
-		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:86:18-74
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:91:18-74
 service#com.baidu.location.f
-ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:87:9-95:19
+ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:92:9-99:19
 	android:enabled
-		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:89:13-35
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:94:13-35
 	android:process
-		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:90:13-38
-	android:permission
-		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:91:13-75
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:95:13-38
 	android:name
-		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:88:13-48
-intent-filter#com.baidu.location.service_v2.6
-ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:92:13-94:29
-action#com.baidu.location.service_v2.6
-ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:93:17-73
-	android:name
-		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:93:25-71
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:93:13-48
 uses-permission#android.permission.VIBRATE
-ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:98:5-66
+ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:102:5-66
 	android:name
-		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:98:22-63
-uses-permission#android.permission.INTERNET
-ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:99:5-67
-	android:name
-		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:99:22-64
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:102:22-63
 uses-permission#android.permission.CAMERA
-ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:101:5-65
+ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:104:5-65
 	android:name
-		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:101:22-62
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:104:22-62
 uses-feature#android.hardware.camera
-ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:102:5-60
+ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:105:5-60
 	android:name
-		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:102:19-57
-uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:104:5-105:23
-	android:name
-		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:104:22-76
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:105:19-57
 uses-permission#com.android.launcher.permission.READ_SETTINGS
-ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:108:5-85
+ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:106:5-85
 	android:name
-		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:108:22-82
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:106:22-82
 uses-permission#android.permission.WAKE_LOCK
-ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:109:5-110:23
+ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:107:5-68
 	android:name
-		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:109:22-65
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:107:22-65
 uses-permission#android.permission.CHANGE_WIFI_STATE
-ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:111:5-76
+ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:108:5-76
 	android:name
-		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:111:22-73
-uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:112:5-76
-	android:name
-		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:112:22-73
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:108:22-73
 uses-permission#android.permission.GET_TASKS
-ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:114:5-68
+ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:110:5-68
 	android:name
-		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:114:22-65
-uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:115:5-116:23
-	android:name
-		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:115:22-78
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:110:22-65
 uses-permission#android.permission.WRITE_SETTINGS
-ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:117:5-73
+ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:111:5-73
 	android:name
-		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:117:22-70
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:111:22-70
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:119:5-97
+ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:113:5-80
 	android:name
-		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:119:22-78
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:113:22-78
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:121:5-95
+ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:115:5-78
 	android:name
-		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:121:22-76
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:115:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:117:5-75
+	android:name
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:117:22-73
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:119:5-78
+	android:name
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:119:22-76
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:129:5-91
+ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:123:5-74
 	android:name
-		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:129:22-72
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:123:22-72
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:125:5-80
+	android:name
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:125:22-78
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:127:5-67
+	android:name
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:127:22-64
 uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
-ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:135:5-100
+ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:129:5-83
 	android:name
-		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:135:22-81
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:129:22-81
 uses-permission#android.permission.READ_LOGS
-ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:137:5-84
+ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:131:5-67
 	android:name
-		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:137:22-65
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:131:22-65
 supports-screens
-ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:140:5-145:39
+ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:134:5-139:39
 	android:largeScreens
-		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:142:9-36
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:136:9-36
 	android:smallScreens
-		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:145:9-36
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:139:9-36
 	android:normalScreens
-		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:143:9-38
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:137:9-38
 	android:resizeable
-		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:144:9-34
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:138:9-34
 	android:anyDensity
-		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:141:9-34
+		ADDED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml:135:9-34
 uses-sdk
 INJECTED from C:\Users\foresee\Downloads\HelloARNative\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:multidex:1.0.1] C:\Users\foresee\.android\build-cache\cbae12ecb12ff3498647dd17c34fec860a009307\output\AndroidManifest.xml:18:5-42
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\foresee\.android\build-cache\98f4cd82ee7154f7ce069e4cdc85556e3b884982\output\AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support:support-v4:25.3.1] C:\Users\foresee\.android\build-cache\50129a98d7b347714071e89d51bfcd4cb464efb7\output\AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\foresee\.android\build-cache\9a9085da4705e7b05c23898b10afe190fcdeaf19\output\AndroidManifest.xml:21:5-23:60
@@ -273,7 +272,6 @@ MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\foresee\.an
 MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\foresee\.android\build-cache\6ab88354b43b78f7e908f466d49840215887a23c\output\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\foresee\.android\build-cache\b89e71b9b89c948dd1168ddd5c31a1ae5f7abb48\output\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:support-compat:25.3.1] C:\Users\foresee\.android\build-cache\97a42a0ac478cc7c7d613df50e69791fb086bc1b\output\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:multidex:1.0.1] C:\Users\foresee\.android\build-cache\cbae12ecb12ff3498647dd17c34fec860a009307\output\AndroidManifest.xml:18:5-42
 	tools:overrideLibrary
 		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\foresee\.android\build-cache\98f4cd82ee7154f7ce069e4cdc85556e3b884982\output\AndroidManifest.xml:23:9-75
 	android:targetSdkVersion

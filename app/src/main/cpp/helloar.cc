@@ -9,7 +9,7 @@
 #include <jni.h>
 #include <GLES2/gl2.h>
 
-#define JNIFUNCTION_NATIVE(sig) Java_cn_easyar_samples_helloar_MainActivity_##sig
+#define JNIFUNCTION_NATIVE(sig) Java_cn_easyar_samples_helloar_SurfaceFragment2_##sig
 
 extern "C" {
     JNIEXPORT jboolean JNICALL JNIFUNCTION_NATIVE(nativeInit(JNIEnv* env, jobject object));

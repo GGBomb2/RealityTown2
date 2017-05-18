@@ -1,6 +1,7 @@
 package cn.easyar.samples.helloar;
 
 import android.app.Fragment;
+import android.graphics.Point;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
@@ -23,6 +24,8 @@ import com.baidu.mapapi.map.CircleOptions;
 import com.baidu.mapapi.map.GroundOverlayOptions;
 import com.baidu.mapapi.map.MapStatusUpdate;
 import com.baidu.mapapi.map.MapStatusUpdateFactory;
+import com.baidu.mapapi.map.MapView;
+import com.baidu.mapapi.map.MapViewLayoutParams;
 import com.baidu.mapapi.map.MarkerOptions;
 import com.baidu.mapapi.map.MyLocationConfiguration;
 import com.baidu.mapapi.map.OverlayOptions;
@@ -50,6 +53,8 @@ import com.baidu.mapapi.search.sug.SuggestionSearch;
 import com.baidu.mapapi.search.sug.SuggestionSearchOption;
 
 import cn.baidu.mapapi.overlayutil.PoiOverlay;
+
+import static android.R.attr.paddingBottom;
 
 
 /**
@@ -88,7 +93,18 @@ public class GuideFragment extends Fragment implements OnGetPoiSearchResultListe
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         view = inflater.inflate(R.layout.guide, container, false);
+        view.bringToFront();
         mBaiduMap = ((MainActivity) getActivity()).mBaiduMap;
+        MapView mMapView=((MainActivity) getActivity()).mMapView;
+
+        MapViewLayoutParams.Builder builder = new MapViewLayoutParams.Builder();
+        builder.layoutMode(MapViewLayoutParams.ELayoutMode.absoluteMode);
+        builder.width(mMapView.getWidth());
+        builder.height(paddingBottom);
+        builder.point(new Point(0, mMapView.getHeight()));
+        builder.align(MapViewLayoutParams.ALIGN_LEFT, MapViewLayoutParams.ALIGN_BOTTOM);
+
+
         // 初始化搜索模块，注册事件监听
         mSearch = GeoCoder.newInstance();
         mSearch.setOnGetGeoCodeResultListener(this);
@@ -179,13 +195,8 @@ public class GuideFragment extends Fragment implements OnGetPoiSearchResultListe
             }
 
             @Override
-            public void beforeTextChanged(CharSequence arg0, int arg1,
+            public void beforeTextChanged(CharSequence cs, int arg1,
                                           int arg2, int arg3) {
-            }
-
-            @Override
-            public void onTextChanged(CharSequence cs, int arg1, int arg2,
-                                      int arg3) {
                 if (cs.length() <= 0) {
                     return;
                 }
@@ -197,6 +208,12 @@ public class GuideFragment extends Fragment implements OnGetPoiSearchResultListe
                 mSuggestionSearch
                         .requestSuggestion((new SuggestionSearchOption())
                                 .keyword(cs.toString()).city(city));
+            }
+
+            @Override
+            public void onTextChanged(CharSequence cs, int arg1, int arg2,
+                                      int arg3) {
+
             }
         });
 
@@ -214,6 +231,8 @@ public class GuideFragment extends Fragment implements OnGetPoiSearchResultListe
     public void onResume() {
         Log.i(getTag(), "GuideFragment onResumed!");
         super.onResume();
+        LinearLayout llayout = (LinearLayout) view.findViewById(R.id.linearlayout_search);
+        llayout.setVisibility(View.VISIBLE);
     }
 
     @Override
@@ -259,46 +278,46 @@ public class GuideFragment extends Fragment implements OnGetPoiSearchResultListe
      *
      * @param result
      */
-    public void onGetPoiResult(PoiResult result) {
-        if (result == null || result.error == SearchResult.ERRORNO.RESULT_NOT_FOUND) {
-            Toast.makeText(getActivity(), "未找到结果", Toast.LENGTH_LONG)
-                    .show();
-            return;
-        }
-        if (result.error == SearchResult.ERRORNO.NO_ERROR) {
-            mBaiduMap.clear();
-            PoiOverlay overlay = new MyPoiOverlay(mBaiduMap);
-            mBaiduMap.setOnMarkerClickListener(overlay);
-            overlay.setData(result);
-            overlay.addToMap();
-            overlay.zoomToSpan();
-
-            switch (searchType) {
-                case 2:
-                    showNearbyArea(center, radius);
-                    break;
-                case 3:
-                    showBound(searchbound);
-                    break;
-                default:
-                    break;
-            }
-
-            return;
-        }
-        if (result.error == SearchResult.ERRORNO.AMBIGUOUS_KEYWORD) {
-
-            // 当输入关键字在本市没有找到，但在其他城市找到时，返回包含该关键字信息的城市列表
-            String strInfo = "在";
-            for (CityInfo cityInfo : result.getSuggestCityList()) {
-                strInfo += cityInfo.city;
-                strInfo += ",";
-            }
-            strInfo += "找到结果";
-            Toast.makeText(getActivity(), strInfo, Toast.LENGTH_LONG)
-                    .show();
-        }
-    }
+//    public void onGetPoiResult(PoiResult result) {
+//        if (result == null || result.error == SearchResult.ERRORNO.RESULT_NOT_FOUND) {
+//            Toast.makeText(getActivity(), "未找到结果", Toast.LENGTH_LONG)
+//                    .show();
+//            return;
+//        }
+//        if (result.error == SearchResult.ERRORNO.NO_ERROR) {
+//            mBaiduMap.clear();
+//            PoiOverlay overlay = new MyPoiOverlay(mBaiduMap);
+//            mBaiduMap.setOnMarkerClickListener(overlay);
+//            overlay.setData(result);
+//            overlay.addToMap();
+//            overlay.zoomToSpan();
+//
+//            switch (searchType) {
+//                case 2:
+//                    showNearbyArea(center, radius);
+//                    break;
+//                case 3:
+//                    showBound(searchbound);
+//                    break;
+//                default:
+//                    break;
+//            }
+//
+//            return;
+//        }
+//        if (result.error == SearchResult.ERRORNO.AMBIGUOUS_KEYWORD) {
+//
+//            // 当输入关键字在本市没有找到，但在其他城市找到时，返回包含该关键字信息的城市列表
+//            String strInfo = "在";
+//            for (CityInfo cityInfo : result.getSuggestCityList()) {
+//                strInfo += cityInfo.city;
+//                strInfo += ",";
+//            }
+//            strInfo += "找到结果";
+//            Toast.makeText(getActivity(), strInfo, Toast.LENGTH_LONG)
+//                    .show();
+//        }
+//    }
 
 
     /**
@@ -340,47 +359,47 @@ public class GuideFragment extends Fragment implements OnGetPoiSearchResultListe
         bdGround.recycle();
     }
 
-//    public void onGetPoiResult(PoiResult result) {
-//        if (result == null
-//                || result.error == SearchResult.ERRORNO.RESULT_NOT_FOUND) {
-//            Toast.makeText(getActivity(), "未找到结果", Toast.LENGTH_LONG)
-//                    .show();
-//            return;
-//        }
-//        if (result.error == SearchResult.ERRORNO.NO_ERROR) {
-//            mBaiduMap.clear();
-//            PoiOverlay overlay = new MyPoiOverlay(mBaiduMap);
-//            mBaiduMap.setOnMarkerClickListener(overlay);
-//            overlay.setData(result);
-//            overlay.addToMap();
-//            //overlay.zoomToSpan();
-//            MapStatusUpdate u = MapStatusUpdateFactory.newLatLng(result.getAllPoi().get(0).location);
-//            mBaiduMap.animateMapStatus(u);
-//            mDestination = result.getAllPoi().get(0).location;
-//            int count = result.getAllPoi().size();
-//            PoiInfo[] poiinfos = new PoiInfo[count];
-//            for (int n = 0; n < count; n++) {
-//                poiinfos[n] = result.getAllPoi().get(n);
-//            }
-//            if (((MainActivity) getActivity()).mSurfaceFragment != null) {
-//                ((MainActivity) getActivity()).mSurfaceFragment.poiinfos = poiinfos;
-//            }
-//
-//            return;
-//        }
-//        if (result.error == SearchResult.ERRORNO.AMBIGUOUS_KEYWORD) {
-//
-//            // 当输入关键字在本市没有找到，但在其他城市找到时，返回包含该关键字信息的城市列表
-//            String strInfo = "在";
-//            for (CityInfo cityInfo : result.getSuggestCityList()) {
-//                strInfo += cityInfo.city;
-//                strInfo += ",";
-//            }
-//            strInfo += "找到结果";
-//            Toast.makeText(getActivity(), strInfo, Toast.LENGTH_LONG)
-//                    .show();
-//        }
-//    }
+    public void onGetPoiResult(PoiResult result) {
+        if (result == null
+                || result.error == SearchResult.ERRORNO.RESULT_NOT_FOUND) {
+            Toast.makeText(getActivity(), "未找到结果", Toast.LENGTH_LONG)
+                    .show();
+            return;
+        }
+        if (result.error == SearchResult.ERRORNO.NO_ERROR) {
+            mBaiduMap.clear();
+            PoiOverlay overlay = new MyPoiOverlay(mBaiduMap);
+            mBaiduMap.setOnMarkerClickListener(overlay);
+            overlay.setData(result);
+            overlay.addToMap();
+            //overlay.zoomToSpan();
+            MapStatusUpdate u = MapStatusUpdateFactory.newLatLng(result.getAllPoi().get(0).location);
+            mBaiduMap.animateMapStatus(u);
+            mDestination = result.getAllPoi().get(0).location;
+            int count = result.getAllPoi().size();
+            PoiInfo[] poiinfos = new PoiInfo[count];
+            for (int n = 0; n < count; n++) {
+                poiinfos[n] = result.getAllPoi().get(n);
+            }
+            if (((MainActivity) getActivity()).mSurfaceFragment != null) {
+                ((MainActivity) getActivity()).mSurfaceFragment.poiinfos = poiinfos;
+            }
+
+            return;
+        }
+        if (result.error == SearchResult.ERRORNO.AMBIGUOUS_KEYWORD) {
+
+            // 当输入关键字在本市没有找到，但在其他城市找到时，返回包含该关键字信息的城市列表
+            String strInfo = "在";
+            for (CityInfo cityInfo : result.getSuggestCityList()) {
+                strInfo += cityInfo.city;
+                strInfo += ",";
+            }
+            strInfo += "找到结果";
+            Toast.makeText(getActivity(), strInfo, Toast.LENGTH_LONG)
+                    .show();
+        }
+    }
 
     public void onGetPoiDetailResult(PoiDetailResult result) {
         if (result.error != SearchResult.ERRORNO.NO_ERROR) {

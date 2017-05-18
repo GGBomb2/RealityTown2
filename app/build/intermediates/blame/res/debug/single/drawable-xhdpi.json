@@ -96,12 +96,12 @@
         "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\superid_common_confirm_btn_normal_unclickable.9.png"
     },
     {
-        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\altitude_bg.png",
-        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\altitude_bg.png"
-    },
-    {
         "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\superid_ico_fakeid_guideview_agree.png",
         "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\superid_ico_fakeid_guideview_agree.png"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\altitude_bg.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\altitude_bg.png"
     },
     {
         "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\superid_demo_login_superid_ico_disable.png",
@@ -324,12 +324,12 @@
         "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\superid_common_alert_fail_img.png"
     },
     {
-        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\calibrate_1.png",
-        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\calibrate_1.png"
-    },
-    {
         "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\superid_common_empower_bg_down.9.png",
         "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\superid_common_empower_bg_down.9.png"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\calibrate_1.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\calibrate_1.png"
     },
     {
         "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\superid_ico_fakeid_guideview_tips3.png",
@@ -396,12 +396,12 @@
         "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\superid_common_tips_nightmode_jack_img.png"
     },
     {
-        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\pressure_bg.png",
-        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\pressure_bg.png"
-    },
-    {
         "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\superid_guideview_rebind_img.png",
         "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\superid_guideview_rebind_img.png"
+    },
+    {
+        "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\pressure_bg.png",
+        "source": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\src\\main\\res\\drawable-xhdpi\\pressure_bg.png"
     },
     {
         "merged": "C:\\Users\\foresee\\Downloads\\HelloARNative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\superid_guideview_record_img.png",
